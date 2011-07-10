@@ -1,19 +1,17 @@
-= validate_email_address
+= validate_email_address gem
 
-Description goes here.
+Source code for {Getting started with Gems: How to create a gem for Rails 3}[http://bitsofgeekdom.tumblr.com/post/7443618295/] tutorial.
 
-== Contributing to validate_email_address
- 
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
-* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
-* Fork the project
-* Start a feature/bugfix branch
-* Commit and push until you are happy with your contribution
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+Extend ActiveRecord validations by checking if a string is a valid email address.
+
+== Use
+In your model:
+
+  validates_email_address_of :email
+
 
 == Copyright
 
-Copyright (c) 2011 get. See LICENSE.txt for
+Copyright (c) 2011 Gal Koren. See LICENSE.txt for
 further details.
 
