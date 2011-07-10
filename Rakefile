@@ -17,10 +17,11 @@ Jeweler::Tasks.new do |gem|
   gem.name = "validate_email_address"
   gem.homepage = "http://github.com/get/validate_email_address"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{validate email address}
+  gem.description = %Q{extend ActiveRecord validations by checking if a string is a valid email address}
   gem.email = "korengb@gmail.com"
   gem.authors = ["get"]
+  gem.files = Dir.glob('lib/**/*.rb')
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
